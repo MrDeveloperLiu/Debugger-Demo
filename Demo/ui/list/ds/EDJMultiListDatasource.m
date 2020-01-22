@@ -142,3 +142,25 @@
     }
 }
 @end
+
+
+@implementation EDJMultiListDatasource (Indeces)
+
+- (NSArray<NSString *> *)sectionIndexTitlesForTableView:(UITableView *)tableView{
+    if (self.sections.count <= 0) {
+        return nil;
+    }
+    if (self.option & EDJBaseListDatasourceOptionTitleIndeces) {
+        NSMutableArray *temp = [NSMutableArray array];
+        [self.sections enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            EDJListObjects *objects = obj;
+            if ([objects.index isKindOfClass:[NSString class]]) {
+                [temp addObject:objects.index];
+            }
+        }];
+        return temp;
+    }
+    return nil;
+}
+
+@end

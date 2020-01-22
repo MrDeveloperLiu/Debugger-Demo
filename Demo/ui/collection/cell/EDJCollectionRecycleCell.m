@@ -46,12 +46,20 @@
     }
 }
 
-- (void)resetContent:(id)content{
+- (void)resetContent:(id)content{    
     if ([content isKindOfClass:[NSString class]]) {
         self.textLabel.text = content;
-    }else if ([content isKindOfClass:[NSAttributedString class]]){
+    }
+    if ([content isKindOfClass:[NSAttributedString class]]) {
         self.textLabel.attributedText = content;
     }
+    if ([content isKindOfClass:[NSDictionary class]]) {
+        NSString *title = content[@"title"];
+        if ([title isKindOfClass:[NSString class]]) {
+            self.textLabel.text = title;
+        }
+    }
+
 }
 
 - (UILabel *)textLabel{

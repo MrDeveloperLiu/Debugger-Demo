@@ -12,6 +12,7 @@
 
 @interface EDJListObjects : NSObject
 @property (nonatomic, assign) NSUInteger section;
+@property (nonatomic, copy) NSString *index;
 
 @property (nonatomic, strong) EDJListHeaderFooterObject *header;
 @property (nonatomic, strong) EDJListHeaderFooterObject *footer;

@@ -15,6 +15,7 @@ typedef NS_OPTIONS(NSUInteger, EDJBaseListDatasourceOption) {
     EDJBaseListDatasourceOptionDisableSelect = 1 << 0,
     EDJBaseListDatasourceOptionDisableCancelSelect = 1 << 1,
     EDJBaseListDatasourceOptionSelectUsingBlock = 1 << 2,
+    EDJBaseListDatasourceOptionTitleIndeces = 1 << 3,
 };
 
 @protocol EDJBaseListDatasourceDelegate <NSObject>

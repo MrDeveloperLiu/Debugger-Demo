@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		29736158EE8E4934FE46BB2EAA398E10 /* Debugger */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 30F1600153E6E79BB1567300D6D9B504 /* Build configuration list for PBXAggregateTarget "Debugger" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = Debugger;
-		};
 		DEE4C1B160AD00539209C2360181D6D4 /* DeLauncher */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 846B514493899C1F0B482C54E63A4A63 /* Build configuration list for PBXAggregateTarget "DeLauncher" */;
@@ -28,15 +19,70 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		10763C42AE31C8405729889DBB156B80 /* Pods-Demo-DemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4956D8A3A3BA7E09155450EC79959842 /* Pods-Demo-DemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21127A3386230C9EA0E50F38BC1BEB74 /* Pods-Demo-DemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE654807FCFFC62E4519A00911F6FA44 /* Pods-Demo-DemoUITests-dummy.m */; };
-		3EB8AD2B275166C16654E3F04FB7E81B /* Pods-DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB688784DA153B5CFE4D2AE4690866D1 /* Pods-DemoTests-dummy.m */; };
-		60558F7BCAFAAACBC7E070F5B21532A2 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53718B19C468C394DE952998D8E638C4 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06DFBAAED9C1AC9A74DD829472EC3676 /* NSObject+DeDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF28C9A2033ACA7DC8EA757C8C5731C5 /* NSObject+DeDealloc.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0706D6B82C868CC4F69FC1CF463739D1 /* DeReact.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E7DC9032F806290276DD07F6061CCA /* DeReact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0742B719F19EFC89A323F2E945290FE2 /* NSObject+DeDealloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D08F434206A74A0C445D294D52092B /* NSObject+DeDealloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08DF2EF5C548B00D4E170658A0205E4E /* NSError+DeErrorMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C29777A0B4855F39822BC98DE779024 /* NSError+DeErrorMsg.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0C732BC08936EAE605B23500EE6DA6C5 /* DeSimpleXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 43F5BC27085A85DB809AE62E6DB77A4E /* DeSimpleXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E6E509F5C6FE2C199772FC335882AB7 /* DeHTTPDataTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B718A5EBA32598EDC36BB6C1697B7C /* DeHTTPDataTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10763C42AE31C8405729889DBB156B80 /* Pods-Demo-DemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5982964000C6EB68548D80D063F4C791 /* Pods-Demo-DemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1702943107CBD4AB346F6680F96B7E7C /* DeDispose.m in Sources */ = {isa = PBXBuildFile; fileRef = BA30DE7E1A164F53CD5F52B293089D36 /* DeDispose.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B9EA80F9A4D3A50512254F06D0E7583 /* DeHTTPNotReachableError.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC5D8A989057712B483D47BC57356F0 /* DeHTTPNotReachableError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1F1B323C110BAB3D1E86983F2C3F1ADD /* DeHTTPDataTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F6AA4E49857887EFE497F3121E7045 /* DeHTTPDataTask.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21127A3386230C9EA0E50F38BC1BEB74 /* Pods-Demo-DemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D20F2DCCBAA709EB338F5EF0A87EEB2 /* Pods-Demo-DemoUITests-dummy.m */; };
+		235231F320011C83660A839C1426ED0B /* DeDispose.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C551A0AB8F9C8C446884A126AB97F2E /* DeDispose.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F59F9D5EA1B3128A5F46C09CC3FF392 /* DeStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 458C1F6C458B4D9FA6B51B991E2C7ADE /* DeStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F717CBB7E7D2946F15745F7A0E264E8 /* DeHTTPNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE041A4024962DD24A2AD2DC6DC891B /* DeHTTPNetwork.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		345B55E97AE8360C67B491812066091F /* Debugger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30322ABBC0B020840B927E835327CF87 /* Debugger-dummy.m */; };
+		372F6EC7B71482CC119C49CD563F19B5 /* DeSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAF8B7A9D07D52EF3A3191C20873465 /* DeSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		396108CBCB8A06955FB4A8473815AF90 /* DeHTTPInvalidResponseError.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D643085682F0CFB68C8F2C3A477711 /* DeHTTPInvalidResponseError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3A0C7BE8D33E495454316AFDA31041FD /* DeSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B5DBDF7EC04D0A83D2F51D49AEBF97 /* DeSignal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3EB8AD2B275166C16654E3F04FB7E81B /* Pods-DemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4920C56CA9E6126E648166C7EDDFA8 /* Pods-DemoTests-dummy.m */; };
+		41D824C34507D501747338E9101F6349 /* DeSimpleXMLParaser.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EE7535D0587EE77BDE8A8551988E63 /* DeSimpleXMLParaser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		44BBE5A07CF5845BE9EA90215BB32D6D /* DeHTTPResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 851DE8B7E65520831789650967A78A05 /* DeHTTPResponseSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		45B9903BB05031EC271DE53EA9DA7636 /* DeStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 529A99A225EBFA737A0EE0BF3AACC4CE /* DeStream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		48E3B33EDF23DC313C949F593D0FB81C /* DeHTTPJsonInvalidParamterError.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5F6020164E0116E18642CFFA992A0B /* DeHTTPJsonInvalidParamterError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9B76B418453071916DA0B10BF7A773 /* DeHTTPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA5FCBD720C4C984D1E6D16C77976C /* DeHTTPManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D9A04DCC52EAE772B431C82833D266 /* DeFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 28108C9939BA57E36AFFE3C200CC0C29 /* DeFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		571751E32527CD0B7952AF7457D1FE9B /* DeHTTPInvalidResponseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEA60A02820F714CED0C4C0F56E65B3 /* DeHTTPInvalidResponseError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A0FD03A6B63B824C98A79C065F8126E /* NSError+DeErrorMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 87FA771D428D5DB231D6931E1A7115B2 /* NSError+DeErrorMsg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60558F7BCAFAAACBC7E070F5B21532A2 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DB61F174D1E2467095F2216A65DCB7 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B673BD25A83BBB26D4545B4D183543 /* DeSubject.h in Headers */ = {isa = PBXBuildFile; fileRef = F4BD02C2880378F526E149D105B17F4C /* DeSubject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E3C36A25182490BAC3E5C36328F552 /* DeHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 446D2674F80060AC029D8C4E32224ADA /* DeHTTPManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		668C892C6CC66FB04B25D430D851FC72 /* DeHTTPRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EA1FECD4B4EB088785B5144B631179 /* DeHTTPRequestSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6DDF9CF1B8BD7D93414AEE9081A16B3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6F83DE9510A01F2FB902FA2FF3364407 /* DeHTTPNotReachableError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A332EDBD58253BD13A7D727BE2C687B /* DeHTTPNotReachableError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7037C57D34BD57D4C6D08631F2E269B1 /* DeHTTPNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FFB3065E451A456C00DCBD9F0E85F87 /* DeHTTPNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F3491EF1A8A35C995A091399BA072F /* DeSubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AB76303B8A6DE90325EB08E1AB24D3 /* DeSubject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7A9A885AC0DC70F37B460CD12ADE8B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7E6D21A0DD0FE9C16253C529B20287D0 /* DeSimpleXMLParaser.h in Headers */ = {isa = PBXBuildFile; fileRef = D697DED648799DF759F063953151E4D7 /* DeSimpleXMLParaser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81BA33D63B7003FB5930B0A4899E0093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8F31E58E0D197E73BD0D3A18BAFA93D9 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325DF569448789DE94915DA59B49B340 /* Pods-Demo-dummy.m */; };
+		85DEBEC63BBDF240AB4D189A069D2DB6 /* DeSubscribler.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A717110F49CB111400AD8C0DC7919F /* DeSubscribler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		863EF4B2C1E862761E0742BDCC12314A /* DeHTTPResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 361BA4231B49E084CF8BA1E5BAB2E834 /* DeHTTPResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F5E865BE0F0D8875CA7BC324D77BC1 /* DeSimpleXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D96DAF41D5B6BA9A8036BB6B44E22DD4 /* DeSimpleXMLNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8BC34097E65188F04B7663D0997BF7F0 /* DeHTTPJsonInvalidParamterError.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CB016660248593765C048EC0261469 /* DeHTTPJsonInvalidParamterError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8E77D93D809F161DF80A13F90457F253 /* Debugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0313918335635111730B15E1A94C2DE8 /* Debugger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F31E58E0D197E73BD0D3A18BAFA93D9 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C7E1A54FAEC10DA49730DA4BA41C9 /* Pods-Demo-dummy.m */; };
+		95B30EE30AB81212DBFA75203C65C5BD /* DeHTTPRequestSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C368E9EC3EB9250234268C7C13DBAB /* DeHTTPRequestSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9962E806F873BFF6EDCF21A37F7B3406 /* DeReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E59C12A43B5C2192105D48CD814E61 /* DeReachable.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9CA610E55CE4EC6A0B5B564CF33F65E6 /* DeScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8BEA94B953AD249238369B4E851F63 /* DeScheduler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D9F340CDD63A3D3018B66E881EB1B99 /* DeHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1A610182FDFCC72DD2966BE360CE3 /* DeHTTPOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E1C2232C83D4B2B8A78032163E88B1F /* DeFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C3031A4E7BAC5542223FAB577B249894 /* DeFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43EB78F1E14A9AAC068DA80B8FA519B /* DeFileDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261CB73709B652D85DE0631E8099E5C /* DeFileDirectory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B5B130F5963B8CA4D308C7DED2F095AF /* DeAsyncGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1C911E8A6B9BC9C112B960F6F1466A /* DeAsyncGroup.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BA95E685BB4A8029E8CFBBA86CCFDBD2 /* DeSubscribler.m in Sources */ = {isa = PBXBuildFile; fileRef = 688918C5782A911B7A5C946D078221A1 /* DeSubscribler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CB8D4996DB7E707C98AE9A544C63C180 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DC4240841AE0125219209EB04E87786F /* Pods-DemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D484A32BAB66E222729021ABD38E3AD /* Pods-DemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D122485CA9CA323092B1A5178BB39EC5 /* DeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D26777AA445981F2CAF1F29F3FEFC /* DeProxy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D9DD9AF01DD3F867A3AB6DF0BFBBAA4F /* DeAsyncGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9C05B06239EB43EF8CB0EB90C23018 /* DeAsyncGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC4240841AE0125219209EB04E87786F /* Pods-DemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B45C12DA62B1BA858187610EBA3E6D /* Pods-DemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC49E109DDF509F9E2BA7222294A72AF /* DeFileDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 090B4E40CC0E587B417AAB7700D89196 /* DeFileDirectory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E39A85C23A2C272A77CDBC3458DC5B17 /* DeAsync.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADECF3C8A4AC8352491ADA4E6C8779B /* DeAsync.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E79D14BE9668FF95F665ADFA09C32172 /* DeProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 442D3C9D6E69E2E71AB86974D5AE9495 /* DeProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E893C27766D337318F8EC27D0136439F /* DeReachable.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C3461BA7E0975BEE5B96C6CF3D528D /* DeReachable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9CDB9E109DC0CB35714BB3FFB161FC6 /* DeScheduler.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F781859FECA30AC8FE2B0962B03E10 /* DeScheduler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB8E6377E18A9A085CDC11B4B18720D6 /* Debugger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F62FDD538405686393651B9F39A715 /* Debugger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF36D9D6B319FEBED2C9719488DF2622 /* DeHTTPOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4026C4122D9F737E91FF5CCDD0435F3B /* DeHTTPOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3021AADFDCA3D959F02554B080B01A8 /* DeAsync.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D691BC3EA0AFEB62B8DE90CA9D93CB7 /* DeAsync.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,43 +124,103 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0189BAE8EA7C23C717395CA261888E19 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		0803B5EAC882C5D1CD36CD47051BC3E7 /* Pods-DemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTests.modulemap"; sourceTree = "<group>"; };
-		090247C2CDD8B374E1CB0AB2C866C263 /* Pods-DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D66717F88B90B7B36EFEBB3F263215E /* Pods-Demo-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		108E7929954170585D6D69066C83F141 /* Debugger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Debugger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2D484A32BAB66E222729021ABD38E3AD /* Pods-DemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoTests-umbrella.h"; sourceTree = "<group>"; };
+		0177528E2F1116A6E033B40A16261B77 /* Debugger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Debugger-Info.plist"; sourceTree = "<group>"; };
+		01E4422408C9C269DFA25228B4561EBB /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		0313918335635111730B15E1A94C2DE8 /* Debugger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Debugger.h; path = Debugger/Debugger.h; sourceTree = "<group>"; };
+		03F62FDD538405686393651B9F39A715 /* Debugger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Debugger-umbrella.h"; sourceTree = "<group>"; };
+		04EA5FCBD720C4C984D1E6D16C77976C /* DeHTTPManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPManager.h; sourceTree = "<group>"; };
+		090B4E40CC0E587B417AAB7700D89196 /* DeFileDirectory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeFileDirectory.h; sourceTree = "<group>"; };
+		1156017E16AAC9E12B53AFE19D0DA173 /* Pods-DemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoTests.modulemap"; sourceTree = "<group>"; };
+		17AB76303B8A6DE90325EB08E1AB24D3 /* DeSubject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeSubject.m; sourceTree = "<group>"; };
+		1BAF8B7A9D07D52EF3A3191C20873465 /* DeSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeSignal.h; sourceTree = "<group>"; };
+		1C551A0AB8F9C8C446884A126AB97F2E /* DeDispose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeDispose.h; sourceTree = "<group>"; };
+		1EA2CCA5A344DCCFAA5C41D29A49E9DB /* Debugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debugger.xcconfig; sourceTree = "<group>"; };
+		22CCCF6E86DCDEB86669AD0BC3782686 /* Pods-DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		25CB016660248593765C048EC0261469 /* DeHTTPJsonInvalidParamterError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPJsonInvalidParamterError.m; sourceTree = "<group>"; };
+		25D541E980224C48383D34A45C444886 /* Debugger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Debugger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28108C9939BA57E36AFFE3C200CC0C29 /* DeFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeFileLogger.m; sourceTree = "<group>"; };
+		28B4375718A4F72CF52C5315CDD9D9F3 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		29A717110F49CB111400AD8C0DC7919F /* DeSubscribler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeSubscribler.h; sourceTree = "<group>"; };
+		2EA7358776D244B16A92175F3DB89FCE /* Pods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		30322ABBC0B020840B927E835327CF87 /* Debugger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Debugger-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		325DF569448789DE94915DA59B49B340 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
-		4956D8A3A3BA7E09155450EC79959842 /* Pods-Demo-DemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-DemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		501167A0050D25146D2FD49019F7D427 /* DeLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeLauncher.h; path = DeLauncher/DeLauncher.h; sourceTree = "<group>"; };
-		53718B19C468C394DE952998D8E638C4 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
-		6A39B8532C8E2E17D9E6F24D0DDA7F10 /* Pods-Demo-DemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-DemoUITests-Info.plist"; sourceTree = "<group>"; };
-		7292019C1A9F719F52FDECA595CBED96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		77A605256F48AE04D03464D5F29D63DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		361BA4231B49E084CF8BA1E5BAB2E834 /* DeHTTPResponseSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPResponseSerializer.h; sourceTree = "<group>"; };
+		3D852320F97EFA41C66B60641A8C7621 /* Pods-Demo-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E4920C56CA9E6126E648166C7EDDFA8 /* Pods-DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTests-dummy.m"; sourceTree = "<group>"; };
+		4026C4122D9F737E91FF5CCDD0435F3B /* DeHTTPOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPOperation.h; sourceTree = "<group>"; };
+		4123C95E3D4DF2C4AAAB5D60F5C98174 /* Pods-DemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		434FA30478CEEEB9CA2ABC591F7D9499 /* Pods-Demo-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43F5BC27085A85DB809AE62E6DB77A4E /* DeSimpleXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeSimpleXMLNode.h; sourceTree = "<group>"; };
+		442D3C9D6E69E2E71AB86974D5AE9495 /* DeProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeProxy.h; sourceTree = "<group>"; };
+		446D2674F80060AC029D8C4E32224ADA /* DeHTTPManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPManager.m; sourceTree = "<group>"; };
+		458C1F6C458B4D9FA6B51B991E2C7ADE /* DeStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeStream.h; sourceTree = "<group>"; };
+		46FDE0C9F6D1FF3B2CFD954B3A9A498E /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48F6AA4E49857887EFE497F3121E7045 /* DeHTTPDataTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPDataTask.m; sourceTree = "<group>"; };
+		4A9C05B06239EB43EF8CB0EB90C23018 /* DeAsyncGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeAsyncGroup.h; sourceTree = "<group>"; };
+		4C29777A0B4855F39822BC98DE779024 /* NSError+DeErrorMsg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+DeErrorMsg.m"; sourceTree = "<group>"; };
+		5261CB73709B652D85DE0631E8099E5C /* DeFileDirectory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeFileDirectory.m; sourceTree = "<group>"; };
+		529A99A225EBFA737A0EE0BF3AACC4CE /* DeStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeStream.m; sourceTree = "<group>"; };
+		5982964000C6EB68548D80D063F4C791 /* Pods-Demo-DemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-DemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		5BE041A4024962DD24A2AD2DC6DC891B /* DeHTTPNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPNetwork.m; sourceTree = "<group>"; };
+		5C7EC9496CF949A00EA5CC56CFB7BFA8 /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
+		605D26777AA445981F2CAF1F29F3FEFC /* DeProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeProxy.m; sourceTree = "<group>"; };
+		65D1A610182FDFCC72DD2966BE360CE3 /* DeHTTPOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPOperation.m; sourceTree = "<group>"; };
+		688918C5782A911B7A5C946D078221A1 /* DeSubscribler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeSubscribler.m; sourceTree = "<group>"; };
+		70E59C12A43B5C2192105D48CD814E61 /* DeReachable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeReachable.m; sourceTree = "<group>"; };
+		725AD1466A904E1D00E53446E8A2EA02 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		73DB61F174D1E2467095F2216A65DCB7 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
+		77D643085682F0CFB68C8F2C3A477711 /* DeHTTPInvalidResponseError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPInvalidResponseError.m; sourceTree = "<group>"; };
 		78AA3E20F1ADD9050E7207C089BC14FB /* Pods_Demo_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo_DemoUITests.framework; path = "Pods-Demo-DemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E89AA34E506B9E27B4341735BA2A4A9 /* DeLauncher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DeLauncher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		84510BDB2497E07A8142640E7482FE28 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9907CC2C1EA2DB0D7D75B4073BA622D5 /* Debugger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debugger.xcconfig; sourceTree = "<group>"; };
+		78B5DBDF7EC04D0A83D2F51D49AEBF97 /* DeSignal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeSignal.m; sourceTree = "<group>"; };
+		7B81EBE1E543E796A6B40B46E7741A8C /* Debugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Debugger.framework; path = Debugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5949D5D2F7DA237F8650573487E23A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7D20F2DCCBAA709EB338F5EF0A87EEB2 /* Pods-Demo-DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-DemoUITests-dummy.m"; sourceTree = "<group>"; };
+		7E3A3E626E118A087035EA93052B8837 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		80F781859FECA30AC8FE2B0962B03E10 /* DeScheduler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeScheduler.h; sourceTree = "<group>"; };
+		81768F248C7E60271886DB5AB5D0CE49 /* Debugger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Debugger.modulemap; sourceTree = "<group>"; };
+		851DE8B7E65520831789650967A78A05 /* DeHTTPResponseSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPResponseSerializer.m; sourceTree = "<group>"; };
+		8690D75208B1F976D4C459FEA77D86FA /* Pods-Demo-DemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-DemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		87C368E9EC3EB9250234268C7C13DBAB /* DeHTTPRequestSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPRequestSerializer.h; sourceTree = "<group>"; };
+		87FA771D428D5DB231D6931E1A7115B2 /* NSError+DeErrorMsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+DeErrorMsg.h"; sourceTree = "<group>"; };
+		8A332EDBD58253BD13A7D727BE2C687B /* DeHTTPNotReachableError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPNotReachableError.h; sourceTree = "<group>"; };
+		8ADECF3C8A4AC8352491ADA4E6C8779B /* DeAsync.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeAsync.m; sourceTree = "<group>"; };
+		8FFB3065E451A456C00DCBD9F0E85F87 /* DeHTTPNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPNetwork.h; sourceTree = "<group>"; };
+		938C7E1A54FAEC10DA49730DA4BA41C9 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		98D08F434206A74A0C445D294D52092B /* NSObject+DeDealloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeDealloc.h"; sourceTree = "<group>"; };
+		9D691BC3EA0AFEB62B8DE90CA9D93CB7 /* DeAsync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeAsync.h; sourceTree = "<group>"; };
+		9D6F4D03B123BC573F3A7C253B93DAFF /* DeLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeLauncher.h; path = DeLauncher/DeLauncher.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD38D5F68B6E298EA6148194E5AA005 /* Pods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FB5616EAD77A1A9D872974CBB4F19A7 /* DeLauncher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeLauncher.xcconfig; sourceTree = "<group>"; };
-		A33E1DDC210ED79D5055D29D72CF159E /* Pods-Demo-DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A4CC0BD2157E1D32F353293B1B6257C0 /* Pods-Demo-DemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-DemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A55CBF1FAA9C0A330A97FA51F07E6CEA /* Pods-DemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTests-Info.plist"; sourceTree = "<group>"; };
-		AE654807FCFFC62E4519A00911F6FA44 /* Pods-Demo-DemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-DemoUITests-dummy.m"; sourceTree = "<group>"; };
-		BB688784DA153B5CFE4D2AE4690866D1 /* Pods-DemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTests-dummy.m"; sourceTree = "<group>"; };
-		BC9126ADA4EFA64E1BCB4096E7F154D0 /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
+		9DEA60A02820F714CED0C4C0F56E65B3 /* DeHTTPInvalidResponseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPInvalidResponseError.h; sourceTree = "<group>"; };
+		AA1C3D90E327B99C8D03B50F85F50F75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA8BEA94B953AD249238369B4E851F63 /* DeScheduler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeScheduler.m; sourceTree = "<group>"; };
+		AC9CB586A0CEDD7A16E6D61CD7AD5DE4 /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
+		B1F440CD91B8FD2D2CEE5E613475068E /* Debugger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Debugger-prefix.pch"; sourceTree = "<group>"; };
+		B7C3461BA7E0975BEE5B96C6CF3D528D /* DeReachable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeReachable.h; sourceTree = "<group>"; };
+		B907AF1B00D7FC13FE968702B7FF02BB /* Pods-DemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		B9099937DEA95EB97121F23A7E660D90 /* Pods-Demo-DemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-DemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA1C911E8A6B9BC9C112B960F6F1466A /* DeAsyncGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeAsyncGroup.m; sourceTree = "<group>"; };
+		BA30DE7E1A164F53CD5F52B293089D36 /* DeDispose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeDispose.m; sourceTree = "<group>"; };
+		C0B718A5EBA32598EDC36BB6C1697B7C /* DeHTTPDataTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPDataTask.h; sourceTree = "<group>"; };
+		C0EE7535D0587EE77BDE8A8551988E63 /* DeSimpleXMLParaser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeSimpleXMLParaser.m; sourceTree = "<group>"; };
+		C3031A4E7BAC5542223FAB577B249894 /* DeFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeFileLogger.h; sourceTree = "<group>"; };
+		C58B638AED890D738567B4AEF736EB09 /* DeLauncher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeLauncher.xcconfig; sourceTree = "<group>"; };
 		C694DE63ED5EAB66E3CA6D184271692B /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAB13CB56F59C6F5164D603D0B53DFB4 /* Pods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		DB1CC47C9A56DC61E02DDCD8DF231C5F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E087AC04B33D3CA4F6F605C5392EEC03 /* Pods-Demo-DemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo-DemoUITests.modulemap"; sourceTree = "<group>"; };
-		E243055450237362D570384077BB79BF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		ECD19BDD20D27B2DE5CDAC7B8FC2D3FC /* Pods-Demo-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE507CF4B7B14E37F7E193B2EBB271B8 /* Pods-Demo-DemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-DemoUITests-Info.plist"; sourceTree = "<group>"; };
+		D4E7DC9032F806290276DD07F6061CCA /* DeReact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeReact.h; sourceTree = "<group>"; };
+		D697DED648799DF759F063953151E4D7 /* DeSimpleXMLParaser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeSimpleXMLParaser.h; sourceTree = "<group>"; };
+		D96DAF41D5B6BA9A8036BB6B44E22DD4 /* DeSimpleXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeSimpleXMLNode.m; sourceTree = "<group>"; };
+		DBC5D8A989057712B483D47BC57356F0 /* DeHTTPNotReachableError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPNotReachableError.m; sourceTree = "<group>"; };
+		DF5F6020164E0116E18642CFFA992A0B /* DeHTTPJsonInvalidParamterError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeHTTPJsonInvalidParamterError.h; sourceTree = "<group>"; };
+		E1B45C12DA62B1BA858187610EBA3E6D /* Pods-DemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoTests-umbrella.h"; sourceTree = "<group>"; };
+		E447AAC53863610CCD9BEF19C7A23B26 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		EDC64E5E3F4E396C5FB5D79D3099A614 /* Pods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5E141E32DDC7A15843191016991BBD /* DeLauncher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DeLauncher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F2473B9A57174E81C2ABF1DCDDCB6FC3 /* Pods_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoTests.framework; path = "Pods-DemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F477AC1B005BACA19CBC565DBB2A9DB9 /* Pods-DemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F61EA158BDF5E4BBAB6A89E00BAC7789 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		F8395220DD511681A96EED21566E44FC /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4282C1A8273FA4DFDAAF055C95A6829 /* Pods-Demo-DemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo-DemoUITests.modulemap"; sourceTree = "<group>"; };
+		F4BD02C2880378F526E149D105B17F4C /* DeSubject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DeSubject.h; sourceTree = "<group>"; };
+		F5EA1FECD4B4EB088785B5144B631179 /* DeHTTPRequestSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeHTTPRequestSerializer.m; sourceTree = "<group>"; };
+		F9C56AAE31C26C852F11745831965749 /* Pods-Demo-DemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-DemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF28C9A2033ACA7DC8EA757C8C5731C5 /* NSObject+DeDealloc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeDealloc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +240,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D7B6ABDC612A4800A049F13621E5383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDF9CF1B8BD7D93414AEE9081A16B3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BE09345F2F4EA957198DEFB96ADDD012 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,63 +259,187 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B1D2B908FBC431A345B8D0413F75929 /* Pod */ = {
+		0E5B06BACF234E10D5980030BAAACB8C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7E89AA34E506B9E27B4341735BA2A4A9 /* DeLauncher.podspec */,
-				77A605256F48AE04D03464D5F29D63DB /* LICENSE */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3EC0951460307CB468666C06E2B440B2 /* Pods-DemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0803B5EAC882C5D1CD36CD47051BC3E7 /* Pods-DemoTests.modulemap */,
-				090247C2CDD8B374E1CB0AB2C866C263 /* Pods-DemoTests-acknowledgements.markdown */,
-				F477AC1B005BACA19CBC565DBB2A9DB9 /* Pods-DemoTests-acknowledgements.plist */,
-				BB688784DA153B5CFE4D2AE4690866D1 /* Pods-DemoTests-dummy.m */,
-				A55CBF1FAA9C0A330A97FA51F07E6CEA /* Pods-DemoTests-Info.plist */,
-				2D484A32BAB66E222729021ABD38E3AD /* Pods-DemoTests-umbrella.h */,
-				9DD38D5F68B6E298EA6148194E5AA005 /* Pods-DemoTests.debug.xcconfig */,
-				CAB13CB56F59C6F5164D603D0B53DFB4 /* Pods-DemoTests.release.xcconfig */,
-			);
-			name = "Pods-DemoTests";
-			path = "Target Support Files/Pods-DemoTests";
-			sourceTree = "<group>";
-		};
-		592E9015A16027E0679D2C2AFB9913A2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8221F4EC9EC965ED957816B51A87C16B /* Debugger */,
-				C2594258528E58F98793C319695E32F1 /* DeLauncher */,
+				2E95112A8E2B476D31894BA54A996739 /* Debugger */,
+				C0EDB7F31A02BB19D3D561FCA6FEDD29 /* DeLauncher */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		61AB3556D32A4542850EE99940A54620 /* Targets Support Files */ = {
+		10A2FC6BCB6670C82E98C88D8E259B28 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ABD19BE1DD5C2B4D78C1E0D33EE34FFF /* Pods-Demo */,
-				FF1CB9DE2F3171090066F90039B99644 /* Pods-Demo-DemoUITests */,
-				3EC0951460307CB468666C06E2B440B2 /* Pods-DemoTests */,
+				C58B638AED890D738567B4AEF736EB09 /* DeLauncher.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Debugger-Demo/Pods/Target Support Files/DeLauncher";
 			sourceTree = "<group>";
 		};
-		8221F4EC9EC965ED957816B51A87C16B /* Debugger */ = {
+		25B1FB1C437DBFD836268ED809E1FBAB /* subscrible */ = {
 			isa = PBXGroup;
 			children = (
-				9A5CBB547544C999C7EC99974D5D6295 /* Pod */,
-				FD7CE977E8EC5E42282DD05981826ED4 /* Support Files */,
+				29A717110F49CB111400AD8C0DC7919F /* DeSubscribler.h */,
+				688918C5782A911B7A5C946D078221A1 /* DeSubscribler.m */,
+			);
+			name = subscrible;
+			path = subscrible;
+			sourceTree = "<group>";
+		};
+		2B721B12410DAAA1AF1847CC479D8228 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA60A02820F714CED0C4C0F56E65B3 /* DeHTTPInvalidResponseError.h */,
+				77D643085682F0CFB68C8F2C3A477711 /* DeHTTPInvalidResponseError.m */,
+				DF5F6020164E0116E18642CFFA992A0B /* DeHTTPJsonInvalidParamterError.h */,
+				25CB016660248593765C048EC0261469 /* DeHTTPJsonInvalidParamterError.m */,
+				8A332EDBD58253BD13A7D727BE2C687B /* DeHTTPNotReachableError.h */,
+				DBC5D8A989057712B483D47BC57356F0 /* DeHTTPNotReachableError.m */,
+				87FA771D428D5DB231D6931E1A7115B2 /* NSError+DeErrorMsg.h */,
+				4C29777A0B4855F39822BC98DE779024 /* NSError+DeErrorMsg.m */,
+			);
+			name = error;
+			path = error;
+			sourceTree = "<group>";
+		};
+		2E95112A8E2B476D31894BA54A996739 /* Debugger */ = {
+			isa = PBXGroup;
+			children = (
+				0313918335635111730B15E1A94C2DE8 /* Debugger.h */,
+				8DD88A96ED43C00373023E9083F2A72B /* class */,
+				D0A52290A4682BB407B1A312552FCBBB /* Pod */,
+				4EA081AC54580F393E58E7E78E73A7BB /* Support Files */,
 			);
 			name = Debugger;
 			path = ../../Debugger;
 			sourceTree = "<group>";
 		};
-		8BEF28AEB2FE8CC6C425BC0E211E2428 /* Products */ = {
+		3AFE49A2220A7150B2310EB264B94EF9 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				EF5E141E32DDC7A15843191016991BBD /* DeLauncher.podspec */,
+				7E3A3E626E118A087035EA93052B8837 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		48ABAAB4DF66E0D571AD0CF64B325019 /* Pods-Demo-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4282C1A8273FA4DFDAAF055C95A6829 /* Pods-Demo-DemoUITests.modulemap */,
+				B9099937DEA95EB97121F23A7E660D90 /* Pods-Demo-DemoUITests-acknowledgements.markdown */,
+				F9C56AAE31C26C852F11745831965749 /* Pods-Demo-DemoUITests-acknowledgements.plist */,
+				7D20F2DCCBAA709EB338F5EF0A87EEB2 /* Pods-Demo-DemoUITests-dummy.m */,
+				8690D75208B1F976D4C459FEA77D86FA /* Pods-Demo-DemoUITests-frameworks.sh */,
+				CE507CF4B7B14E37F7E193B2EBB271B8 /* Pods-Demo-DemoUITests-Info.plist */,
+				5982964000C6EB68548D80D063F4C791 /* Pods-Demo-DemoUITests-umbrella.h */,
+				434FA30478CEEEB9CA2ABC591F7D9499 /* Pods-Demo-DemoUITests.debug.xcconfig */,
+				3D852320F97EFA41C66B60641A8C7621 /* Pods-Demo-DemoUITests.release.xcconfig */,
+			);
+			name = "Pods-Demo-DemoUITests";
+			path = "Target Support Files/Pods-Demo-DemoUITests";
+			sourceTree = "<group>";
+		};
+		4EA081AC54580F393E58E7E78E73A7BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81768F248C7E60271886DB5AB5D0CE49 /* Debugger.modulemap */,
+				1EA2CCA5A344DCCFAA5C41D29A49E9DB /* Debugger.xcconfig */,
+				30322ABBC0B020840B927E835327CF87 /* Debugger-dummy.m */,
+				0177528E2F1116A6E033B40A16261B77 /* Debugger-Info.plist */,
+				B1F440CD91B8FD2D2CEE5E613475068E /* Debugger-prefix.pch */,
+				03F62FDD538405686393651B9F39A715 /* Debugger-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Debugger-Demo/Pods/Target Support Files/Debugger";
+			sourceTree = "<group>";
+		};
+		55B37235F734C6D5127A036CD749A7F8 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				C0B718A5EBA32598EDC36BB6C1697B7C /* DeHTTPDataTask.h */,
+				48F6AA4E49857887EFE497F3121E7045 /* DeHTTPDataTask.m */,
+				04EA5FCBD720C4C984D1E6D16C77976C /* DeHTTPManager.h */,
+				446D2674F80060AC029D8C4E32224ADA /* DeHTTPManager.m */,
+				8FFB3065E451A456C00DCBD9F0E85F87 /* DeHTTPNetwork.h */,
+				5BE041A4024962DD24A2AD2DC6DC891B /* DeHTTPNetwork.m */,
+				4026C4122D9F737E91FF5CCDD0435F3B /* DeHTTPOperation.h */,
+				65D1A610182FDFCC72DD2966BE360CE3 /* DeHTTPOperation.m */,
+				87C368E9EC3EB9250234268C7C13DBAB /* DeHTTPRequestSerializer.h */,
+				F5EA1FECD4B4EB088785B5144B631179 /* DeHTTPRequestSerializer.m */,
+				361BA4231B49E084CF8BA1E5BAB2E834 /* DeHTTPResponseSerializer.h */,
+				851DE8B7E65520831789650967A78A05 /* DeHTTPResponseSerializer.m */,
+				2B721B12410DAAA1AF1847CC479D8228 /* error */,
+				F97052E7EFF5D3ABF795B513AA20D40A /* reachable */,
+			);
+			name = network;
+			path = network;
+			sourceTree = "<group>";
+		};
+		5AC7CB300298CB1F3465D1021420D2E3 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				090B4E40CC0E587B417AAB7700D89196 /* DeFileDirectory.h */,
+				5261CB73709B652D85DE0631E8099E5C /* DeFileDirectory.m */,
+				C3031A4E7BAC5542223FAB577B249894 /* DeFileLogger.h */,
+				28108C9939BA57E36AFFE3C200CC0C29 /* DeFileLogger.m */,
+			);
+			name = log;
+			path = log;
+			sourceTree = "<group>";
+		};
+		5F2D83292D3258468B5089B3E3428432 /* proxy */ = {
+			isa = PBXGroup;
+			children = (
+				442D3C9D6E69E2E71AB86974D5AE9495 /* DeProxy.h */,
+				605D26777AA445981F2CAF1F29F3FEFC /* DeProxy.m */,
+			);
+			name = proxy;
+			path = proxy;
+			sourceTree = "<group>";
+		};
+		6543C8AE88D3093D3C01CFD6316023A0 /* async */ = {
+			isa = PBXGroup;
+			children = (
+				9D691BC3EA0AFEB62B8DE90CA9D93CB7 /* DeAsync.h */,
+				8ADECF3C8A4AC8352491ADA4E6C8779B /* DeAsync.m */,
+				4A9C05B06239EB43EF8CB0EB90C23018 /* DeAsyncGroup.h */,
+				BA1C911E8A6B9BC9C112B960F6F1466A /* DeAsyncGroup.m */,
+			);
+			name = async;
+			path = async;
+			sourceTree = "<group>";
+		};
+		7BE76BC51C9ABE1EC135A6BC3564AF3D /* schedule */ = {
+			isa = PBXGroup;
+			children = (
+				80F781859FECA30AC8FE2B0962B03E10 /* DeScheduler.h */,
+				AA8BEA94B953AD249238369B4E851F63 /* DeScheduler.m */,
+			);
+			name = schedule;
+			path = schedule;
+			sourceTree = "<group>";
+		};
+		80F31B76ED304FB303DF14F5E5D36D8F /* react */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7DC9032F806290276DD07F6061CCA /* DeReact.h */,
+				98D08F434206A74A0C445D294D52092B /* NSObject+DeDealloc.h */,
+				FF28C9A2033ACA7DC8EA757C8C5731C5 /* NSObject+DeDealloc.m */,
+				F24E63C0A6373B32CE9AACA5C8155E72 /* dispose */,
+				7BE76BC51C9ABE1EC135A6BC3564AF3D /* schedule */,
+				F110948E968684B15B53CDF68BCB7F81 /* stream */,
+				25B1FB1C437DBFD836268ED809E1FBAB /* subscrible */,
+			);
+			name = react;
+			path = react;
+			sourceTree = "<group>";
+		};
+		8A18AF05C2B1264AB03E49BD55C9E3E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B81EBE1E543E796A6B40B46E7741A8C /* Debugger.framework */,
 				C694DE63ED5EAB66E3CA6D184271692B /* Pods_Demo.framework */,
 				78AA3E20F1ADD9050E7207C089BC14FB /* Pods_Demo_DemoUITests.framework */,
 				F2473B9A57174E81C2ABF1DCDDCB6FC3 /* Pods_DemoTests.framework */,
@@ -209,39 +447,34 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A5CBB547544C999C7EC99974D5D6295 /* Pod */ = {
+		8DD88A96ED43C00373023E9083F2A72B /* class */ = {
 			isa = PBXGroup;
 			children = (
-				108E7929954170585D6D69066C83F141 /* Debugger.podspec */,
-				7292019C1A9F719F52FDECA595CBED96 /* LICENSE */,
-				DB1CC47C9A56DC61E02DDCD8DF231C5F /* README.md */,
+				6543C8AE88D3093D3C01CFD6316023A0 /* async */,
+				5AC7CB300298CB1F3465D1021420D2E3 /* log */,
+				55B37235F734C6D5127A036CD749A7F8 /* network */,
+				5F2D83292D3258468B5089B3E3428432 /* proxy */,
+				80F31B76ED304FB303DF14F5E5D36D8F /* react */,
+				F1DE375136DE0EF7A4B7F33155CB81F9 /* sax-xml */,
 			);
-			name = Pod;
+			name = class;
+			path = Debugger/class;
 			sourceTree = "<group>";
 		};
-		A0512E827118242EE53AF99BF8F018E6 /* Support Files */ = {
+		9CDC0BF55B4231C0C380A11A95A0AEB1 /* Pods-DemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				9FB5616EAD77A1A9D872974CBB4F19A7 /* DeLauncher.xcconfig */,
+				1156017E16AAC9E12B53AFE19D0DA173 /* Pods-DemoTests.modulemap */,
+				4123C95E3D4DF2C4AAAB5D60F5C98174 /* Pods-DemoTests-acknowledgements.markdown */,
+				22CCCF6E86DCDEB86669AD0BC3782686 /* Pods-DemoTests-acknowledgements.plist */,
+				3E4920C56CA9E6126E648166C7EDDFA8 /* Pods-DemoTests-dummy.m */,
+				B907AF1B00D7FC13FE968702B7FF02BB /* Pods-DemoTests-Info.plist */,
+				E1B45C12DA62B1BA858187610EBA3E6D /* Pods-DemoTests-umbrella.h */,
+				EDC64E5E3F4E396C5FB5D79D3099A614 /* Pods-DemoTests.debug.xcconfig */,
+				2EA7358776D244B16A92175F3DB89FCE /* Pods-DemoTests.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Debugger-Demo/Pods/Target Support Files/DeLauncher";
-			sourceTree = "<group>";
-		};
-		ABD19BE1DD5C2B4D78C1E0D33EE34FFF /* Pods-Demo */ = {
-			isa = PBXGroup;
-			children = (
-				E243055450237362D570384077BB79BF /* Pods-Demo.modulemap */,
-				84510BDB2497E07A8142640E7482FE28 /* Pods-Demo-acknowledgements.markdown */,
-				F8395220DD511681A96EED21566E44FC /* Pods-Demo-acknowledgements.plist */,
-				325DF569448789DE94915DA59B49B340 /* Pods-Demo-dummy.m */,
-				BC9126ADA4EFA64E1BCB4096E7F154D0 /* Pods-Demo-Info.plist */,
-				53718B19C468C394DE952998D8E638C4 /* Pods-Demo-umbrella.h */,
-				0189BAE8EA7C23C717395CA261888E19 /* Pods-Demo.debug.xcconfig */,
-				F61EA158BDF5E4BBAB6A89E00BAC7789 /* Pods-Demo.release.xcconfig */,
-			);
-			name = "Pods-Demo";
-			path = "Target Support Files/Pods-Demo";
+			name = "Pods-DemoTests";
+			path = "Target Support Files/Pods-DemoTests";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -252,12 +485,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C2594258528E58F98793C319695E32F1 /* DeLauncher */ = {
+		C0EDB7F31A02BB19D3D561FCA6FEDD29 /* DeLauncher */ = {
 			isa = PBXGroup;
 			children = (
-				501167A0050D25146D2FD49019F7D427 /* DeLauncher.h */,
-				3B1D2B908FBC431A345B8D0413F75929 /* Pod */,
-				A0512E827118242EE53AF99BF8F018E6 /* Support Files */,
+				9D6F4D03B123BC573F3A7C253B93DAFF /* DeLauncher.h */,
+				3AFE49A2220A7150B2310EB264B94EF9 /* Pod */,
+				10A2FC6BCB6670C82E98C88D8E259B28 /* Support Files */,
 			);
 			name = DeLauncher;
 			path = ../../DeLauncher;
@@ -267,11 +500,21 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				592E9015A16027E0679D2C2AFB9913A2 /* Development Pods */,
+				0E5B06BACF234E10D5980030BAAACB8C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8BEF28AEB2FE8CC6C425BC0E211E2428 /* Products */,
-				61AB3556D32A4542850EE99940A54620 /* Targets Support Files */,
+				8A18AF05C2B1264AB03E49BD55C9E3E4 /* Products */,
+				D738DFAABA95077BF10B9B1F3D646F0A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0A52290A4682BB407B1A312552FCBBB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				25D541E980224C48383D34A45C444886 /* Debugger.podspec */,
+				AA1C3D90E327B99C8D03B50F85F50F75 /* LICENSE */,
+				7C5949D5D2F7DA237F8650573487E23A /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -282,29 +525,77 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FD7CE977E8EC5E42282DD05981826ED4 /* Support Files */ = {
+		D738DFAABA95077BF10B9B1F3D646F0A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9907CC2C1EA2DB0D7D75B4073BA622D5 /* Debugger.xcconfig */,
+				E43C9CA10C18A1A16FEECF1F3B9DA221 /* Pods-Demo */,
+				48ABAAB4DF66E0D571AD0CF64B325019 /* Pods-Demo-DemoUITests */,
+				9CDC0BF55B4231C0C380A11A95A0AEB1 /* Pods-DemoTests */,
 			);
-			name = "Support Files";
-			path = "../Debugger-Demo/Pods/Target Support Files/Debugger";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FF1CB9DE2F3171090066F90039B99644 /* Pods-Demo-DemoUITests */ = {
+		E43C9CA10C18A1A16FEECF1F3B9DA221 /* Pods-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				E087AC04B33D3CA4F6F605C5392EEC03 /* Pods-Demo-DemoUITests.modulemap */,
-				A4CC0BD2157E1D32F353293B1B6257C0 /* Pods-Demo-DemoUITests-acknowledgements.markdown */,
-				A33E1DDC210ED79D5055D29D72CF159E /* Pods-Demo-DemoUITests-acknowledgements.plist */,
-				AE654807FCFFC62E4519A00911F6FA44 /* Pods-Demo-DemoUITests-dummy.m */,
-				6A39B8532C8E2E17D9E6F24D0DDA7F10 /* Pods-Demo-DemoUITests-Info.plist */,
-				4956D8A3A3BA7E09155450EC79959842 /* Pods-Demo-DemoUITests-umbrella.h */,
-				ECD19BDD20D27B2DE5CDAC7B8FC2D3FC /* Pods-Demo-DemoUITests.debug.xcconfig */,
-				0D66717F88B90B7B36EFEBB3F263215E /* Pods-Demo-DemoUITests.release.xcconfig */,
+				5C7EC9496CF949A00EA5CC56CFB7BFA8 /* Pods-Demo.modulemap */,
+				46FDE0C9F6D1FF3B2CFD954B3A9A498E /* Pods-Demo-acknowledgements.markdown */,
+				28B4375718A4F72CF52C5315CDD9D9F3 /* Pods-Demo-acknowledgements.plist */,
+				938C7E1A54FAEC10DA49730DA4BA41C9 /* Pods-Demo-dummy.m */,
+				01E4422408C9C269DFA25228B4561EBB /* Pods-Demo-frameworks.sh */,
+				AC9CB586A0CEDD7A16E6D61CD7AD5DE4 /* Pods-Demo-Info.plist */,
+				73DB61F174D1E2467095F2216A65DCB7 /* Pods-Demo-umbrella.h */,
+				725AD1466A904E1D00E53446E8A2EA02 /* Pods-Demo.debug.xcconfig */,
+				E447AAC53863610CCD9BEF19C7A23B26 /* Pods-Demo.release.xcconfig */,
 			);
-			name = "Pods-Demo-DemoUITests";
-			path = "Target Support Files/Pods-Demo-DemoUITests";
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		F110948E968684B15B53CDF68BCB7F81 /* stream */ = {
+			isa = PBXGroup;
+			children = (
+				1BAF8B7A9D07D52EF3A3191C20873465 /* DeSignal.h */,
+				78B5DBDF7EC04D0A83D2F51D49AEBF97 /* DeSignal.m */,
+				458C1F6C458B4D9FA6B51B991E2C7ADE /* DeStream.h */,
+				529A99A225EBFA737A0EE0BF3AACC4CE /* DeStream.m */,
+				F4BD02C2880378F526E149D105B17F4C /* DeSubject.h */,
+				17AB76303B8A6DE90325EB08E1AB24D3 /* DeSubject.m */,
+			);
+			name = stream;
+			path = stream;
+			sourceTree = "<group>";
+		};
+		F1DE375136DE0EF7A4B7F33155CB81F9 /* sax-xml */ = {
+			isa = PBXGroup;
+			children = (
+				43F5BC27085A85DB809AE62E6DB77A4E /* DeSimpleXMLNode.h */,
+				D96DAF41D5B6BA9A8036BB6B44E22DD4 /* DeSimpleXMLNode.m */,
+				D697DED648799DF759F063953151E4D7 /* DeSimpleXMLParaser.h */,
+				C0EE7535D0587EE77BDE8A8551988E63 /* DeSimpleXMLParaser.m */,
+			);
+			name = "sax-xml";
+			path = "sax-xml";
+			sourceTree = "<group>";
+		};
+		F24E63C0A6373B32CE9AACA5C8155E72 /* dispose */ = {
+			isa = PBXGroup;
+			children = (
+				1C551A0AB8F9C8C446884A126AB97F2E /* DeDispose.h */,
+				BA30DE7E1A164F53CD5F52B293089D36 /* DeDispose.m */,
+			);
+			name = dispose;
+			path = dispose;
+			sourceTree = "<group>";
+		};
+		F97052E7EFF5D3ABF795B513AA20D40A /* reachable */ = {
+			isa = PBXGroup;
+			children = (
+				B7C3461BA7E0975BEE5B96C6CF3D528D /* DeReachable.h */,
+				70E59C12A43B5C2192105D48CD814E61 /* DeReachable.m */,
+			);
+			name = reachable;
+			path = reachable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,9 +625,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8F4C6C8902E6C06D436B68A58EF9198 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3021AADFDCA3D959F02554B080B01A8 /* DeAsync.h in Headers */,
+				D9DD9AF01DD3F867A3AB6DF0BFBBAA4F /* DeAsyncGroup.h in Headers */,
+				EB8E6377E18A9A085CDC11B4B18720D6 /* Debugger-umbrella.h in Headers */,
+				8E77D93D809F161DF80A13F90457F253 /* Debugger.h in Headers */,
+				235231F320011C83660A839C1426ED0B /* DeDispose.h in Headers */,
+				DC49E109DDF509F9E2BA7222294A72AF /* DeFileDirectory.h in Headers */,
+				9E1C2232C83D4B2B8A78032163E88B1F /* DeFileLogger.h in Headers */,
+				0E6E509F5C6FE2C199772FC335882AB7 /* DeHTTPDataTask.h in Headers */,
+				571751E32527CD0B7952AF7457D1FE9B /* DeHTTPInvalidResponseError.h in Headers */,
+				48E3B33EDF23DC313C949F593D0FB81C /* DeHTTPJsonInvalidParamterError.h in Headers */,
+				4F9B76B418453071916DA0B10BF7A773 /* DeHTTPManager.h in Headers */,
+				7037C57D34BD57D4C6D08631F2E269B1 /* DeHTTPNetwork.h in Headers */,
+				6F83DE9510A01F2FB902FA2FF3364407 /* DeHTTPNotReachableError.h in Headers */,
+				EF36D9D6B319FEBED2C9719488DF2622 /* DeHTTPOperation.h in Headers */,
+				95B30EE30AB81212DBFA75203C65C5BD /* DeHTTPRequestSerializer.h in Headers */,
+				863EF4B2C1E862761E0742BDCC12314A /* DeHTTPResponseSerializer.h in Headers */,
+				E79D14BE9668FF95F665ADFA09C32172 /* DeProxy.h in Headers */,
+				E893C27766D337318F8EC27D0136439F /* DeReachable.h in Headers */,
+				0706D6B82C868CC4F69FC1CF463739D1 /* DeReact.h in Headers */,
+				E9CDB9E109DC0CB35714BB3FFB161FC6 /* DeScheduler.h in Headers */,
+				372F6EC7B71482CC119C49CD563F19B5 /* DeSignal.h in Headers */,
+				0C732BC08936EAE605B23500EE6DA6C5 /* DeSimpleXMLNode.h in Headers */,
+				7E6D21A0DD0FE9C16253C529B20287D0 /* DeSimpleXMLParaser.h in Headers */,
+				2F59F9D5EA1B3128A5F46C09CC3FF392 /* DeStream.h in Headers */,
+				64B673BD25A83BBB26D4545B4D183543 /* DeSubject.h in Headers */,
+				85DEBEC63BBDF240AB4D189A069D2DB6 /* DeSubscribler.h in Headers */,
+				5A0FD03A6B63B824C98A79C065F8126E /* NSError+DeErrorMsg.h in Headers */,
+				0742B719F19EFC89A323F2E945290FE2 /* NSObject+DeDealloc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		29736158EE8E4934FE46BB2EAA398E10 /* Debugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A22F47D01D62D2191D04DB01C8E997 /* Build configuration list for PBXNativeTarget "Debugger" */;
+			buildPhases = (
+				D8F4C6C8902E6C06D436B68A58EF9198 /* Headers */,
+				CC14E786DDC689969ED2CDB1009ABCD3 /* Sources */,
+				9D7B6ABDC612A4800A049F13621E5383 /* Frameworks */,
+				11B34B5589D8EE9F980755D5C3A1EEC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Debugger;
+			productName = Debugger;
+			productReference = 7B81EBE1E543E796A6B40B46E7741A8C /* Debugger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		380694B9ADC0CBB5D29A662EFE7F52C8 /* Pods-Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EED44B86D760247CA921789E25A17B9B /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
@@ -413,7 +757,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8BEF28AEB2FE8CC6C425BC0E211E2428 /* Products */;
+			productRefGroup = 8A18AF05C2B1264AB03E49BD55C9E3E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -427,6 +771,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		11B34B5589D8EE9F980755D5C3A1EEC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8920C2E129C44EAFC4481C89EF2838F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,6 +826,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC14E786DDC689969ED2CDB1009ABCD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39A85C23A2C272A77CDBC3458DC5B17 /* DeAsync.m in Sources */,
+				B5B130F5963B8CA4D308C7DED2F095AF /* DeAsyncGroup.m in Sources */,
+				345B55E97AE8360C67B491812066091F /* Debugger-dummy.m in Sources */,
+				1702943107CBD4AB346F6680F96B7E7C /* DeDispose.m in Sources */,
+				B43EB78F1E14A9AAC068DA80B8FA519B /* DeFileDirectory.m in Sources */,
+				53D9A04DCC52EAE772B431C82833D266 /* DeFileLogger.m in Sources */,
+				1F1B323C110BAB3D1E86983F2C3F1ADD /* DeHTTPDataTask.m in Sources */,
+				396108CBCB8A06955FB4A8473815AF90 /* DeHTTPInvalidResponseError.m in Sources */,
+				8BC34097E65188F04B7663D0997BF7F0 /* DeHTTPJsonInvalidParamterError.m in Sources */,
+				65E3C36A25182490BAC3E5C36328F552 /* DeHTTPManager.m in Sources */,
+				2F717CBB7E7D2946F15745F7A0E264E8 /* DeHTTPNetwork.m in Sources */,
+				1B9EA80F9A4D3A50512254F06D0E7583 /* DeHTTPNotReachableError.m in Sources */,
+				9D9F340CDD63A3D3018B66E881EB1B99 /* DeHTTPOperation.m in Sources */,
+				668C892C6CC66FB04B25D430D851FC72 /* DeHTTPRequestSerializer.m in Sources */,
+				44BBE5A07CF5845BE9EA90215BB32D6D /* DeHTTPResponseSerializer.m in Sources */,
+				D122485CA9CA323092B1A5178BB39EC5 /* DeProxy.m in Sources */,
+				9962E806F873BFF6EDCF21A37F7B3406 /* DeReachable.m in Sources */,
+				9CA610E55CE4EC6A0B5B564CF33F65E6 /* DeScheduler.m in Sources */,
+				3A0C7BE8D33E495454316AFDA31041FD /* DeSignal.m in Sources */,
+				87F5E865BE0F0D8875CA7BC324D77BC1 /* DeSimpleXMLNode.m in Sources */,
+				41D824C34507D501747338E9101F6349 /* DeSimpleXMLParaser.m in Sources */,
+				45B9903BB05031EC271DE53EA9DA7636 /* DeStream.m in Sources */,
+				70F3491EF1A8A35C995A091399BA072F /* DeSubject.m in Sources */,
+				BA95E685BB4A8029E8CFBBA86CCFDBD2 /* DeSubscribler.m in Sources */,
+				08DF2EF5C548B00D4E170658A0205E4E /* NSError+DeErrorMsg.m in Sources */,
+				06DFBAAED9C1AC9A74DD829472EC3676 /* NSObject+DeDealloc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -513,7 +897,7 @@
 /* Begin XCBuildConfiguration section */
 		1B5D7C2A009BBFFED396750A775BDF21 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FB5616EAD77A1A9D872974CBB4F19A7 /* DeLauncher.xcconfig */;
+			baseConfigurationReference = C58B638AED890D738567B4AEF736EB09 /* DeLauncher.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -530,7 +914,7 @@
 		};
 		4430008ABE9475AC9B88B3168C9FEFC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F61EA158BDF5E4BBAB6A89E00BAC7789 /* Pods-Demo.release.xcconfig */;
+			baseConfigurationReference = E447AAC53863610CCD9BEF19C7A23B26 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -628,7 +1012,7 @@
 		};
 		6135A7DE9F9A2744A36B7D33AE71B87B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D66717F88B90B7B36EFEBB3F263215E /* Pods-Demo-DemoUITests.release.xcconfig */;
+			baseConfigurationReference = 3D852320F97EFA41C66B60641A8C7621 /* Pods-Demo-DemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -666,7 +1050,7 @@
 		};
 		7BC5092F19FC4A34E5FE8728B9660080 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DD38D5F68B6E298EA6148194E5AA005 /* Pods-DemoTests.debug.xcconfig */;
+			baseConfigurationReference = EDC64E5E3F4E396C5FB5D79D3099A614 /* Pods-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -765,42 +1149,78 @@
 			};
 			name = Debug;
 		};
-		B226F888C1A1AF3A6D748D0B47C69EC0 /* Debug */ = {
+		A5D13225E8C5A0E4D498049568E23500 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9907CC2C1EA2DB0D7D75B4073BA622D5 /* Debugger.xcconfig */;
+			baseConfigurationReference = 1EA2CCA5A344DCCFAA5C41D29A49E9DB /* Debugger.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Debugger/Debugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Debugger/Debugger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/Debugger/Debugger.modulemap";
+				PRODUCT_MODULE_NAME = Debugger;
+				PRODUCT_NAME = Debugger;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B692427649AC2F79B6AC0D3390CDD59A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9907CC2C1EA2DB0D7D75B4073BA622D5 /* Debugger.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
+		B595BE661DBF378E2417D6ECD75980D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA2CCA5A344DCCFAA5C41D29A49E9DB /* Debugger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Debugger/Debugger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Debugger/Debugger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Debugger/Debugger.modulemap";
+				PRODUCT_MODULE_NAME = Debugger;
+				PRODUCT_NAME = Debugger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B846BBB6B1F48DBCB7783F0025C96BA0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB13CB56F59C6F5164D603D0B53DFB4 /* Pods-DemoTests.release.xcconfig */;
+			baseConfigurationReference = 2EA7358776D244B16A92175F3DB89FCE /* Pods-DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -838,7 +1258,7 @@
 		};
 		BCCC3A9A415551AE8E5EED82379D7F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECD19BDD20D27B2DE5CDAC7B8FC2D3FC /* Pods-Demo-DemoUITests.debug.xcconfig */;
+			baseConfigurationReference = 434FA30478CEEEB9CA2ABC591F7D9499 /* Pods-Demo-DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -875,7 +1295,7 @@
 		};
 		C7744E3543E078B469A3F46078215A12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FB5616EAD77A1A9D872974CBB4F19A7 /* DeLauncher.xcconfig */;
+			baseConfigurationReference = C58B638AED890D738567B4AEF736EB09 /* DeLauncher.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -891,7 +1311,7 @@
 		};
 		E632BA5CDA5920A40D5662207FC86707 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0189BAE8EA7C23C717395CA261888E19 /* Pods-Demo.debug.xcconfig */;
+			baseConfigurationReference = 725AD1466A904E1D00E53446E8A2EA02 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -929,15 +1349,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30F1600153E6E79BB1567300D6D9B504 /* Build configuration list for PBXAggregateTarget "Debugger" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B226F888C1A1AF3A6D748D0B47C69EC0 /* Debug */,
-				B692427649AC2F79B6AC0D3390CDD59A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -952,6 +1363,15 @@
 			buildConfigurations = (
 				BCCC3A9A415551AE8E5EED82379D7F15 /* Debug */,
 				6135A7DE9F9A2744A36B7D33AE71B87B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A22F47D01D62D2191D04DB01C8E997 /* Build configuration list for PBXNativeTarget "Debugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B595BE661DBF378E2417D6ECD75980D3 /* Debug */,
+				A5D13225E8C5A0E4D498049568E23500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

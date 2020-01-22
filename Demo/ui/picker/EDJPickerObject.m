@@ -36,8 +36,15 @@
         
     if ([content isKindOfClass:[NSString class]]) {
         self.title = content;
-    }else if ([content isKindOfClass:[EDJPickerObjectPair class]]){
+    }
+    if ([content isKindOfClass:[EDJPickerObjectPair class]]){
         self.title = [(EDJPickerObjectPair *)content title];
+    }
+    if ([content isKindOfClass:[NSDictionary class]]) {
+        NSString *title = content[@"title"];
+        if ([title isKindOfClass:[NSString class]]) {
+            self.title = title;
+        }
     }
 }
 @end

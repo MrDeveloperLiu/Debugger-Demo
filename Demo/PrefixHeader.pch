@@ -27,7 +27,7 @@
 #import "DeJavaScriptCore.h"
 #import "DeAppWindow.h"
 
-#import <Debugger/Debugger.h>
+#import <Debugger.h>
 #import <DeLauncher.h>
 
 

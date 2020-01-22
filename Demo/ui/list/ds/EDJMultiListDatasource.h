@@ -16,3 +16,7 @@
 - (EDJListObjects *)sectionAtIndexPath:(NSIndexPath *)indexPath;
 - (EDJListObjects *)sectionAtIndex:(NSUInteger)index;
 @end
+
+
+@interface EDJMultiListDatasource (Indeces)
+@end

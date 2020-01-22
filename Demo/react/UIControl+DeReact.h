@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Debugger/Debugger.h>
 
+@class DeSignal;
 
 @interface UIControl (DeReact)
 

@@ -11,19 +11,17 @@
   "authors": {
     "刘杨": "liuyang@edaijia-inc.cn"
   },
+  "platforms": {
+    "ios": "5.0",
+    "osx": "10.7"
+  },
   "source": {
     "git": "https://github.com/MrDeveloperLiu/Debugger.git",
     "tag": "0.0.1"
   },
   "source_files": [
-    "Classes",
-    "Classes/**/*.{h,m}"
+    "Debugger",
+    "Debugger/**/*.{h,m}"
   ],
-  "exclude_files": "Classes/Exclude",
-  "platforms": {
-    "osx": null,
-    "ios": null,
-    "tvos": null,
-    "watchos": null
-  }
+  "exclude_files": "Debugger/Exclude"
 }

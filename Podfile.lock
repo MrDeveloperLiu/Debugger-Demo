@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../DeLauncher"
 
 SPEC CHECKSUMS:
-  Debugger: a9336805b19a285b260d163f8282fa1f14befba1
+  Debugger: c5b473bd2021d247f2e5ae719991e685790a9a26
   DeLauncher: b1db1325c2f72ea40381a92ccb9aeffb375b7140
 
 PODFILE CHECKSUM: d873edc8cf1dfdd4619a04ecd23efbc16de49e8c
