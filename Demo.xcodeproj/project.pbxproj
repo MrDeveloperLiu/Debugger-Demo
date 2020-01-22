@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -276,23 +276,23 @@
 			isa = PBXGroup;
 			children = (
 				CD7E46362283FDFD00AC2784 /* test.xml */,
-				CDD5FCB121E0644900D72368 /* Assets.xcassets */,
-				CDD5FCB621E0644900D72368 /* Info.plist */,
-				CDD5FCAE21E0644700D72368 /* Main.storyboard */,
-				CDD5FCB321E0644900D72368 /* LaunchScreen.storyboard */,
 				CD01D18323682B48002D5250 /* res.bundle */,
 			);
 			path = res;
 			sourceTree = "<group>";
 		};
-		CD4D1A2622BA08C9003A89CA /* other */ = {
+		CD4D1A2622BA08C9003A89CA /* main */ = {
 			isa = PBXGroup;
 			children = (
+				CDD5FCB121E0644900D72368 /* Assets.xcassets */,
+				CDD5FCAE21E0644700D72368 /* Main.storyboard */,
+				CDD5FCB321E0644900D72368 /* LaunchScreen.storyboard */,
+				CDD5FCB621E0644900D72368 /* Info.plist */,
 				CDD5FCB721E0644900D72368 /* main.m */,
 				CDD5FCA821E0644700D72368 /* AppDelegate.h */,
 				CDD5FCA921E0644700D72368 /* AppDelegate.m */,
 			);
-			path = other;
+			path = main;
 			sourceTree = "<group>";
 		};
 		CD791EAD2369933200EB8908 /* extension */ = {
@@ -508,15 +508,12 @@
 		CDD5FCA721E0644700D72368 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CD4D1A2622BA08C9003A89CA /* main */,
 				CDBD4D2622BA2C4000DF1911 /* PrefixHeader.pch */,
-				CD4D1A2622BA08C9003A89CA /* other */,
+				CD4D1A2222BA08AD003A89CA /* vcs */,
 				CD7A378C23D7FBF0007DA0F1 /* ui */,
 				CD07A81B22D490E600E0DEB4 /* js */,
-				CD4D1A2522BA08B6003A89CA /* res */,
-				CD4D1A2222BA08AD003A89CA /* vcs */,
-				CD4D1A1222B9FECF003A89CA /* react */,
 				CDE88FB122B76068002BC71E /* components */,
-				CD791EAD2369933200EB8908 /* extension */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -542,6 +539,9 @@
 		CDE88FB122B76068002BC71E /* components */ = {
 			isa = PBXGroup;
 			children = (
+				CD4D1A2522BA08B6003A89CA /* res */,
+				CD4D1A1222B9FECF003A89CA /* react */,
+				CD791EAD2369933200EB8908 /* extension */,
 				CDBD4D2222BA295800DF1911 /* frame */,
 			);
 			path = components;
@@ -1001,7 +1001,7 @@
 				DEVELOPMENT_TEAM = 36NQVYW7H2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Demo/PrefixHeader.pch;
-				INFOPLIST_FILE = Demo/res/Info.plist;
+				INFOPLIST_FILE = Demo/main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1026,7 +1026,7 @@
 				DEVELOPMENT_TEAM = 36NQVYW7H2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Demo/PrefixHeader.pch;
-				INFOPLIST_FILE = Demo/res/Info.plist;
+				INFOPLIST_FILE = Demo/main/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
