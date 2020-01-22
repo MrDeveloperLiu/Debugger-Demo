@@ -1,0 +1,29 @@
+{
+  "name": "Debugger",
+  "version": "0.0.1",
+  "summary": "A short description of Debugger.",
+  "description": "你可以很方便的使用一些功能",
+  "homepage": "https://github.com/MrDeveloperLiu/Debugger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "刘杨": "liuyang@edaijia-inc.cn"
+  },
+  "source": {
+    "git": "https://github.com/MrDeveloperLiu/Debugger.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

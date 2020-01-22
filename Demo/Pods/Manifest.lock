@@ -1,0 +1,21 @@
+PODS:
+  - Debugger (0.0.1)
+  - DeLauncher (0.0.2)
+
+DEPENDENCIES:
+  - Debugger (from `../Debugger`)
+  - DeLauncher (from `../DeLauncher`)
+
+EXTERNAL SOURCES:
+  Debugger:
+    :path: "../Debugger"
+  DeLauncher:
+    :path: "../DeLauncher"
+
+SPEC CHECKSUMS:
+  Debugger: a9336805b19a285b260d163f8282fa1f14befba1
+  DeLauncher: b1db1325c2f72ea40381a92ccb9aeffb375b7140
+
+PODFILE CHECKSUM: d873edc8cf1dfdd4619a04ecd23efbc16de49e8c
+
+COCOAPODS: 1.8.4
